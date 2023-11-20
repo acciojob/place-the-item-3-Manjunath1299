@@ -9,7 +9,7 @@ body {
 .holder {
     display: flex;
     flex-wrap: wrap; /* Allow items to go on the next row */
-    justify-content: space-around; /* Evenly space items in the row */
+    justify-content: space-evenly; /* Evenly space items in the row */
     max-width: 600px; /* Adjust the max-width as needed */
 }
 
