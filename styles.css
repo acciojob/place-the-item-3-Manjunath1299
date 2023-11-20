@@ -1,2 +1,24 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
-/* Your CSS Code here. */
+.holder {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to go on the next row */
+    justify-content: space-around; /* Evenly space items in the row */
+    max-width: 600px; /* Adjust the max-width as needed */
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: #3498db; /* Example background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
